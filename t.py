@@ -1,3 +1,6 @@
+#this file is written in ipython 
+# to do add pip install ipython
+# for twitter pip install twitter 
 
 
 
