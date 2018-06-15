@@ -16,6 +16,6 @@ access_token_secret='3hwxqsn9dTAFDZ73YFupTmESXpOOso19Aue6rn5tfqNpb')
 
 print(api.VerifyCredentials())
 
-search = api.GetSearch("sridevi") 
+search = api.GetSearch("sridevi") #replace shridevi with your word
 for tweet in search:
     print(tweet.id, tweet.text)
